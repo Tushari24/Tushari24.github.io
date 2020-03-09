@@ -1,0 +1,30 @@
+<template>
+  <div id="navbar" class="app-header navbar-md white box-shadow">  
+    
+  <a class="navbar-brand m-l-md">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" height="24">
+	<path d="M 4 4 L 44 4 L 44 44 Z" fill="#a88add"></path>
+	<path d="M 4 4 L 34 4 L 24 24 Z" fill="rgba(0,0,0,0.15)"></path>
+	<path d="M 4 4 L 24 4 L 4  44 Z" fill="#0cc2aa"></path>
+    </svg>
+	<span class="hidden-folded inline">DropitLikeHotspot</span>
+    </a>
+
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'navbar',
+  data () {
+    return {
+      msg: 'Welcome to Your dropitblog App'
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
